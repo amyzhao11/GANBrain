@@ -1,9 +1,6 @@
 # DCGAN on OASIS data
 I have implemented a DCGAN on OASIS brain MRI images.
 
-Amy Zhao
-
-43571806
 
 ## Introduction
 An important field within computer vision is medical imaging. However, a main problem within this area of research is that it is difficult to obtain a large sample of training images. Limitations to obtaining brain MRIs include: the low availability of participants, the time it takes to obtain and process high resolution MRI brain images, as well as the fact that participants have to stay still for long periods of time (whichkes it difficult to obtain a good image). Therefore it is useful to implement a generative adversarial network (GAN) that can be trained on existing brain MRIs and then if trained successfully, it can generate an infinite number of plausible brain MRIs. This would aid the training of computer vision techniques such as brain segmentation which would require much more expansive datasets that may otherwise not exist without many man-hours of medical imaging. 
